@@ -1,11 +1,43 @@
-.background {
-  background-image: url("./images/adsız3.jpg");
+body{
+  background-image: url(images/adsız3.png);
+  background-repeat: no-repeat;
 }
 
-h1 {
+ h1{
   color: tomato;
 }
 
 p {
   color: tomato;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+
+  padding:12px 16px;
+
+  background-color: #ba8cd7;
+
+  color:white;
+
+  text-decoration:none;
+}
+
+li a:hover{
+  background-color:#cfa0ed;
 }
